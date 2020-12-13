@@ -1,11 +1,11 @@
-package de.exxcellent.challenge.WeatherData;
+package de.exxcellent.challenge.Data.Weather;
 
 import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import static de.exxcellent.challenge.WeatherData.WeatherDataFactory.*;
+import static de.exxcellent.challenge.Data.Weather.WeatherDataFactory.*;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class WeatherDataFactoryTest {

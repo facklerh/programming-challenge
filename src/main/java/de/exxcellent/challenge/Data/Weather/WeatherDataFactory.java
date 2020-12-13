@@ -1,4 +1,4 @@
-package de.exxcellent.challenge.WeatherData;
+package de.exxcellent.challenge.Data.Weather;
 
 import java.util.List;
 import java.util.stream.Collectors;
