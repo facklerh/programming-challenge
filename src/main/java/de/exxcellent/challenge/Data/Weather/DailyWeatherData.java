@@ -1,4 +1,4 @@
-package de.exxcellent.challenge.WeatherData;
+package de.exxcellent.challenge.Data.Weather;
 
 public class DailyWeatherData {
     private int day;
