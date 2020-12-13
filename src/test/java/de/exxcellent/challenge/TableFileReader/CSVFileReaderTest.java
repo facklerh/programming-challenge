@@ -28,4 +28,19 @@ class CSVFileReaderTest {
         assertEquals(result.get(2)[0], "1");
         assertEquals(result.get(2)[1], "2");
     }
+
+    @Test
+    void canReadCSVCorrectlySkippingHeader() {
+        List<String[]> result = CSVFileReader.readCSV(TEST_CSV_PATH, true);
+
+        assertEquals(2, result.size());
+
+        assertEquals(result.get(0).length, 2);
+        assertEquals(result.get(0)[0], "0");
+        assertEquals(result.get(0)[1], "1");
+
+        assertEquals(result.get(1).length, 2);
+        assertEquals(result.get(1)[0], "1");
+        assertEquals(result.get(1)[1], "2");
+    }
 }
